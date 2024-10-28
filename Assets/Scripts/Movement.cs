@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
-            Destroy(gameObject);
+            
             ShowPlayAgainButton();
             Cursor.visible = true;
         }
